@@ -1,0 +1,35 @@
+@media screen and (max-width: 900px) {
+  .sidebar {
+    display: none;
+  }
+
+  .banner {
+    width: 100vw;
+    height: 15vh;
+    align-self: center;
+    overflow-x: hidden;
+  }
+
+  .rounded {
+    width: 97vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .rounded li {
+    margin-bottom: 0.5rem;
+  }
+
+  main {
+    width: 100vw;
+  }
+
+  .searchbar {
+    width: 100vw;
+  }
+
+  .popular-series h2 {
+    text-align: center;
+  }
+}

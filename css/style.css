@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Tac+One&display=swap");
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #252525;
+  overscroll-behavior: none;
+  font-family: "PT Sans", sans-serif;
+}
+
+main {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+h2 a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 0.7rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: var(--secondary-color);
+  padding: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-family: "pt sans", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--primary-color);
+  min-width: 1rem;
+}
+
+.dropdown-content a {
+  color: var(--secondary-color);
+  padding: 0.3rem 0.5rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+nav h2 {
+  font-size: 3rem;
+  font-family: "Tac One", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  width: 15vw;
+  height: 90vh;
+  position: fixed;
+  top: 3.5rem;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.banner {
+  width: 70vw;
+  margin-top: 3.9rem;
+}
+
+.rounded {
+  border-radius: 1.5rem;
+  padding: 0.6rem 0.9rem;
+}
+
+.search-container {
+  border: 2px solid var(--secondary-color);
+  border-radius: 1rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.searchbar {
+  background-color: transparent;
+  font-size: 1.1rem;
+  padding: 0.3rem 0.7rem;
+  color: #fff;
+  border-radius: 1rem 0 0 1rem;
+  border: none;
+  font-family: "pt sans", sans-serif;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  font-size: 1.2rem;
+  padding: 0.4rem;
+}
+
+.loading {
+  color: var(--secondary-color);
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 4rem;
+  text-decoration: none;
+}
+
+.popular-series {
+  color: #fff;
+}
+
+.popular-series h2 {
+  font-size: 1.6rem;
+  margin-left: 1rem;
+  text-decoration: underline;
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  margin: 0.3rem 1rem 0.5rem 1rem;
+}
+
+.card {
+  margin: 0 0.3rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 300px;
+  border-radius: 0.3rem;
+  border: 3px solid var(--primary-color);
+}
+
+.info {
+  padding: 0.3rem;
+  background-color: #000000b4;
+  color: var(--secondary-color);
+  width: 200px;
+}
+
+.info h3 {
+  line-height: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.info a {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.info p {
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+}
+
+.add-btn {
+  background-color: var(--secondary-color);
+  border: none;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  margin: 0.4rem 0 0.2rem 0;
+}
+
+.add-btn i {
+  font-size: 0.6rem;
+  margin-right: 0.2rem;
+}
+
+.add-btn:hover {
+  background-color: #7d0000;
+  color: var(--secondary-color);
+}
+
+footer {
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 0.7rem 0.5rem 0.3rem 0.5rem;
+}

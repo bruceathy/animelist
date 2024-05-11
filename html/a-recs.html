@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/mobile.css" />
+    <link rel="stylesheet" href="../css/recs.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <script type="module" src="../script/recs.js" defer></script>
+    <title>Anime Recommendations</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2><a href="../index.html">AnimeList</a></h2>
+      <ul>
+        <li><a href="login.html">Login / Signup</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <img class="sidebar left" src="../imgs/jjk-left.jpeg" />
+      <main>
+        <a
+          href="https://www.viz.com/read/book/jujutsu-kaisen-the-official-character-guide/product/7824"
+          target="_blank"
+        >
+          <img
+            class="banner"
+            src="../imgs/banner.jpeg"
+            alt="jujutsu kaisen banner"
+          />
+        </a>
+        <section class="navbar rounded">
+          <ul>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Anime <i class="fas fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="a-review.html">Reviews</a>
+                  <a href="a-seasonal.html">Seasonal</a>
+                  <a href="a-recs.html">Recommendations</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Manga <i class="fas fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="m-review.html">Reviews</a>
+                  <a href="m-recs.html">Recommendations</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#">My List</a>
+            </li>
+          </ul>
+
+          <div class="search-container">
+            <input
+              type="text"
+              class="searchbar"
+              id="search"
+              placeholder="Search"
+            />
+            <button class="btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </section>
+
+        <section class="recs-container">
+          <h2>Anime Recommendations</h2>
+          <div id="anime-recs">
+            <h2 class="loading">Loading...</h2>
+          </div>
+        </section>
+
+        <footer>
+          <p>&copy; 2024 - AnimeList.com</p>
+        </footer>
+      </main>
+
+      <img class="sidebar right" src="../imgs/jjk-right.jpeg" />
+    </div>
+  </body>
+</html>

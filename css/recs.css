@@ -1,0 +1,59 @@
+.recs-container h2 {
+  font-size: 1.6rem;
+  text-decoration: underline;
+  margin-left: 1rem;
+  color: var(--secondary-color);
+}
+
+.recs-container a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.recs-container h3 {
+  font-weight: 500;
+  border-bottom: 1px solid #5c5c5c;
+  margin-bottom: 0.5rem;
+}
+
+.rec {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+
+.author-choices {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.choices:first-child {
+  margin-right: 3rem;
+}
+
+.choices {
+  display: flex;
+  max-width: 500px;
+}
+
+.choices img {
+  width: 100px;
+}
+
+.choice-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.choice-text p {
+  display: flex;
+  flex-direction: column;
+}
+
+.choice-text button {
+  width: 100px;
+}
