@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/mobile.css" />
-    <link rel="stylesheet" href="../css/review.css" />
+    <link rel="stylesheet" href="../css/login.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
       integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       crossorigin="anonymous"
     />
-    <script type="module" src="../script/reviews.js" defer></script>
-    <title>Manga Reviews</title>
+    <script type="module" src="../script/mylist.js" defer></script>
+    <title>My List</title>
   </head>
   <body>
     <nav class="navbar">
@@ -22,7 +22,6 @@
         <li><a href="login.html">Login / Signup</a></li>
       </ul>
     </nav>
-
     <div class="container">
       <img class="sidebar left" src="../imgs/jjk-left.jpeg" />
       <main>
@@ -79,10 +78,8 @@
         </section>
 
         <section class="reviews-container">
-          <h2>Recent Manga Reviews</h2>
-          <div id="manga-reviews">
-            <h2 class="loading">Loading...</h2>
-          </div>
+          <h2>My List</h2>
+          <div id="my-list"></div>
         </section>
 
         <footer>
