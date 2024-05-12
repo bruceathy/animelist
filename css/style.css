@@ -154,6 +154,7 @@ nav h2 {
   border-radius: 1rem 0 0 1rem;
   border: none;
   font-family: "pt sans", sans-serif;
+  outline: none;
 }
 
 .btn {
