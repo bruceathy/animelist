@@ -32,4 +32,13 @@
   .popular-series h2 {
     text-align: center;
   }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    justify-content: center;
+  }
 }
