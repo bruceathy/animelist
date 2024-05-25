@@ -87,6 +87,7 @@ li a {
   position: absolute;
   background-color: var(--primary-color);
   min-width: 1rem;
+  z-index: 1;
 }
 
 .dropdown-content a {
@@ -188,7 +189,17 @@ nav h2 {
   display: flex;
   justify-content: space-between;
   overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding-left: 0.4rem;
   margin: 0.3rem 1rem 0.5rem 1rem;
+  mask-image: linear-gradient(
+    to left,
+    transparent 0%,
+    #000000 30px,
+    #000000 calc(100% - 30px),
+    transparent 100%
+  );
 }
 
 .card {
