@@ -1,6 +1,5 @@
 .recs-container h2 {
   font-size: 1.6rem;
-  text-decoration: underline;
   margin-left: 1rem;
   color: var(--secondary-color);
 }
@@ -19,7 +18,7 @@
 .rec {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  margin: 0.5rem 1rem;
+  margin: 0.1rem 1rem;
   border-radius: 0.3rem;
   padding: 0.5rem;
 }
