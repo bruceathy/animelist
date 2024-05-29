@@ -29,26 +29,39 @@
       </div>
       <div class="signup">
         <h1>Signup</h1>
-        <form>
+        <form id="form">
           <div class="form-control">
             <label>Email: </label>
-            <input class="signup-input" type="text" required />
+            <input id="email" class="signup-input" type="text" required />
+            <small>Error message</small>
           </div>
 
           <div class="form-control">
             <label>Password: </label>
-            <input class="signup-input" type="password" required />
+            <input
+              id="password"
+              class="signup-input"
+              type="password"
+              required
+            />
+            <small>Error message</small>
           </div>
 
           <div class="form-control">
             <label>Confirm Password: </label>
-            <input class="signup-input" type="password" required />
+            <input
+              id="confirm-password"
+              class="signup-input"
+              type="password"
+              required
+            />
+            <small>Error message</small>
           </div>
 
-          <button id="signup-btn" class="signup-btn">Create Account</button>
+          <button type="submit" class="signup-btn">Create Account</button>
 
           <p class="signup-text">
-            Already have an account? <a href="#">Login</a>
+            Already have an account? <a id="login" href="#">Login</a>
           </p>
         </form>
       </div>

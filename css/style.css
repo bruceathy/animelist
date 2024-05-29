@@ -190,7 +190,7 @@ nav h2 {
   overflow-x: scroll;
   scroll-behavior: smooth;
   scrollbar-width: none;
-  padding-left: 0.4rem;
+  padding: 0 0.5rem;
   margin: 0.3rem 1rem 0.5rem 1rem;
   mask-image: linear-gradient(
     to left,
