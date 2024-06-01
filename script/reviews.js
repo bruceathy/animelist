@@ -28,25 +28,19 @@ async function getAnimeReviews() {
               <div class="user">
                 <div class="user-info">
                   <img src="${review.user.picture_url}" />
-                  <h3><a href="${review.user.url}" target="_blank">${
-        review.user.name
-      }</a></h3>
+                  <h3><a href="${review.user.url}" target="_blank">${review.user.name}</a></h3>
                 </div>
                 <p><strong>Posted:</strong> ${review.date.date_str}</p>
               </div>
               <div class="review-content">
                 <div class="review-info">
-                  <h3><a href="${review.object.mal_url}" target="_blank">${
-        review.object.title
-      }</a></h3>
-                  <p id="review-text">${review.text.full.slice(0, 600)} ...</p>
+                  <h3><a href="${review.object.mal_url}" target="_blank">${review.object.title}</a></h3>
+                  <p id="review-text">${review.text.full}</p>
                   <p><strong class="review-tag">${review.tag}</strong></p>
                   <div class="options">
                   <script defer>
                   function readFullReview() {
-                    document.getElementById("review-text").innerHTML = "${
-                      review.text.full
-                    }
+                    document.getElementById("review-text").innerHTML = "${review.text.full}
                   }
                      </script>
                      <button class="read-more" id="read-more" onclick="readFullReview()"><i class="fas fa-chevron-down"></i>Read More</button>
