@@ -6,7 +6,7 @@ const login = document.getElementById("login");
 
 login.addEventListener("click", () => {
   alert("We both know you don't have an account");
-  window.location.href = "../index.html";
+  window.location.href = "../html/home.html";
 });
 
 function showError(input, message) {
@@ -90,5 +90,5 @@ form.addEventListener("submit", function (e) {
   //   email.value = "";
   //   password.value = "";
   //   confirmPassword.value = "";
-  window.location.href = "../index.html";
+  window.location.href = "../html/home.html";
 });

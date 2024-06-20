@@ -3,6 +3,10 @@
     display: none;
   }
 
+  .navbar {
+    justify-content: center;
+  }
+
   .banner {
     width: 100vw;
     height: 15vh;

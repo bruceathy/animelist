@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/mobile.css" />
-    <link rel="stylesheet" href="../css/review.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
       integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       crossorigin="anonymous"
     />
-    <script type="module" src="../script/reviews.js" defer></script>
-    <title>Anime Reviews</title>
+    <script type="module" src="../script/popular.js" defer></script>
+    <title>AnimeList.com | Home</title>
   </head>
   <body>
     <nav class="navbar">
@@ -41,8 +40,8 @@
                   Anime <i class="fas fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                  <a href="a-review.html">Reviews</a>
-                  <a href="a-recs.html">Recommendations</a>
+                  <a href="./html/a-review.html">Reviews</a>
+                  <a href="./html/a-recs.html">Recommendations</a>
                 </div>
               </div>
             </li>
@@ -52,13 +51,13 @@
                   Manga <i class="fas fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                  <a href="m-review.html">Reviews</a>
-                  <a href="m-recs.html">Recommendations</a>
+                  <a href="./html/m-review.html">Reviews</a>
+                  <a href="./html/m-recs.html">Recommendations</a>
                 </div>
               </div>
             </li>
             <li>
-              <a href="mylist.html">My List</a>
+              <a href="./html/mylist.html">My List</a>
             </li>
           </ul>
 
@@ -75,14 +74,27 @@
           </div>
         </section>
 
-        <section class="reviews-container">
-          <h2>Recent Anime Reviews</h2>
-          <div id="anime-reviews">
-            <div class="loading-wave">
-              <div class="loading-bar"></div>
-              <div class="loading-bar"></div>
-              <div class="loading-bar"></div>
-              <div class="loading-bar"></div>
+        <section class="popular-series">
+          <div class="popular">
+            <h2>Most Popular Anime</h2>
+            <div class="carousel" id="popular-anime">
+              <div class="loading-wave">
+                <div class="loading-bar"></div>
+                <div class="loading-bar"></div>
+                <div class="loading-bar"></div>
+                <div class="loading-bar"></div>
+              </div>
+            </div>
+          </div>
+          <div class="popular">
+            <h2>Most Popular Manga</h2>
+            <div class="carousel" id="popular-manga">
+              <div class="loading-wave">
+                <div class="loading-bar"></div>
+                <div class="loading-bar"></div>
+                <div class="loading-bar"></div>
+                <div class="loading-bar"></div>
+              </div>
             </div>
           </div>
         </section>

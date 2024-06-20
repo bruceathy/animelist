@@ -115,4 +115,8 @@ form {
     line-height: 1.7rem;
     font-size: 1.5rem;
   }
+
+  .signup {
+    width: 90%;
+  }
 }
