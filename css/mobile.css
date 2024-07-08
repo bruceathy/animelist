@@ -9,7 +9,7 @@
 
   .banner {
     width: 100vw;
-    height: 15vh;
+    height: 16vh;
     align-self: center;
     overflow-x: hidden;
   }
@@ -44,5 +44,15 @@
 
   .hero {
     justify-content: center;
+  }
+
+  .card {
+    min-height: 180px;
+    min-width: 160px;
+    overflow: hidden;
+  }
+
+  .info p {
+    display: none;
   }
 }
